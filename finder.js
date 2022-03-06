@@ -55,7 +55,7 @@ function getAllData() {
     <div class="user-avatar">
     <h2 class="user-name">${USER.name == null ? USER.name = "No username" : USER.name}</h2>
     <h3 class="user-login">${USER.login}</h3>
-    <img class="avatar_img" src"${USER.avatar_url}" alt="${USER.login}">
+    <img class="avatar_img" src="${USER.avatar_url}" alt="${USER.login}">
     <p class="bio">${USER.bio == null ? (USER.bio = "No bio") : USER.bio}</p>
     </div>
     <div class="user-stats">
